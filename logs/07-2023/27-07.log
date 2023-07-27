@@ -1,0 +1,66 @@
+------------------------------------------------------------------------
+Logging started at 27/07/2023 - 13:40:43
+File                 : 27-07.log
+Version              : 2.0
+Computer             : Name: SAOPLTJ6YG2V1 || Mac: d4:be:d9:37:7b:f2
+------------------------------------------------------------------------
+[13:40:43]: DEBUG - MODEM-WLD71-T5A-PyRebooter (5.2 - 26/07/23) by Henrique Rodrigues Pereira
+[13:40:43]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[13:40:43]: INFO - Conectado com sucesso ao IP: (192.168.1.1)
+[13:40:43]: SUCCESS - Login realizado com sucesso!
+[13:40:43]: INFO - Script executado! Validando reinicialização, aguarde!
+[13:40:43]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[13:40:43]: WARNING - Falha ao conectar no IP: (192.168.1.1) // HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273A09D9CC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[13:40:43]: SUCCESS - Reboot realizado com sucesso!
+[13:40:43]: INFO - O aplicativo será finalizado em breve, aguarde...
+[14:30:19]: DEBUG - MODEM-WLD71-T5A-PyRebooter - (3.0 - 27/07/23) by Henrique Rodrigues Pereira
+[14:30:19]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:30:19]: CRITICAL - Ocorreu um erro ao conectar no IP
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021512A97070>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:30:19]: WARNING - Tentativa 1 de 5. Tentando novamente...
+[14:30:19]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:02]: DEBUG - MODEM-WLD71-T5A-PyRebooter - (3.0 - 27/07/23) by Henrique Rodrigues Pereira
+[14:31:02]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:02]: CRITICAL - Ocorreu um erro ao conectar no IP
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002B5D209B010>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:02]: WARNING - Tentativa 1 de 5. Tentando novamente...
+[14:31:02]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:02]: CRITICAL - Ocorreu um erro ao conectar no IP
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002B5D209B970>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:02]: WARNING - Tentativa 2 de 5. Tentando novamente...
+[14:31:02]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:02]: CRITICAL - Ocorreu um erro ao conectar no IP
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002B5D209BAC0>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:02]: WARNING - Tentativa 3 de 5. Tentando novamente...
+[14:31:02]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:57]: DEBUG - MODEM-WLD71-T5A-PyRebooter - (3.0 - 27/07/23) by Henrique Rodrigues Pereira
+[14:31:57]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:57]: WARNING - Ocorreu um erro ao conectar no IP 192.168.1.1
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020FBFD8B070>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:57]: WARNING - Tentativa 1 de 5. Tentando novamente...
+[14:31:57]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:57]: WARNING - Ocorreu um erro ao conectar no IP 192.168.1.1
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020FBFD8B9D0>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:57]: WARNING - Tentativa 2 de 5. Tentando novamente...
+[14:31:57]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:57]: WARNING - Ocorreu um erro ao conectar no IP 192.168.1.1
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020FBFD8BB20>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:57]: WARNING - Tentativa 3 de 5. Tentando novamente...
+[14:31:57]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:57]: WARNING - Ocorreu um erro ao conectar no IP 192.168.1.1
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020FBFD8A710>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:57]: WARNING - Tentativa 4 de 5. Tentando novamente...
+[14:31:57]: INFO - Tentando conexão com o IP: (192.168.1.1)
+[14:31:57]: WARNING - Ocorreu um erro ao conectar no IP 192.168.1.1
+ERRO:
+HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020FBFDD44C0>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+[14:31:57]: CRITICAL - Falha na conexão no IP: (192.168.1.1) Abortando a execução do programa, aguarde...
+[14:31:57]: INFO - O aplicativo será finalizado em breve, aguarde...
