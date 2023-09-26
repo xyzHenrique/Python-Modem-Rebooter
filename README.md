@@ -1,1 +1,1 @@
-# MODEM-WLD71-T5A-PyRebooter
+~ Compatible modem: WLD71 and T5A
